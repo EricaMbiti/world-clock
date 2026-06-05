@@ -38,18 +38,8 @@ cityElement.innerHTML=`
 ${citiesTime.format("A")}</small></div>
 </div>
 `
-
-
-
-
-/*`<div class="city">
-    <div>
-<h2>${citiesName}</h2>
-<div class="date"> ${citiesTime.format("MMMM Do YYYY")}</div>
-    </div>
-<div class="time">${citiesTime.format("h:mm:ss")}<small> ${citiesTime.format("A")}</small></div>
-</div>`;*/
 }
+
 
 updateTime();
 setInterval(updateTime,1000);
