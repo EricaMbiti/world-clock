@@ -40,6 +40,8 @@ cityElement.innerHTML=`
 <div class="time">${citiesTime.format("h:mm:ss")} <small>
 ${citiesTime.format("A")}</small></div>
 </div>
+
+<a href="/">All cities</a>
 `
 }
 
